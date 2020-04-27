@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shopping.bi.mapper.AdminMapper">
+  <resultMap id="BaseResultMap" type="com.shopping.bi.model.AdminEntity">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="account" jdbcType="VARCHAR" property="account" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="mobile" jdbcType="BIGINT" property="mobile" />
+    <result column="loginpwd" jdbcType="VARCHAR" property="loginpwd" />
+    <result column="logintoken" jdbcType="VARCHAR" property="logintoken" />
+    <result column="roleid" jdbcType="BIGINT" property="roleid" />
+    <result column="loginip" jdbcType="VARCHAR" property="loginip" />
+    <result column="lastlogintime" jdbcType="TIMESTAMP" property="lastlogintime" />
+    <result column="dept" jdbcType="VARCHAR" property="dept" />
+    <result column="loginnum" jdbcType="INTEGER" property="loginnum" />
+    <result column="state" jdbcType="TINYINT" property="state" />
+    <result column="createtime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="modifytime" jdbcType="TIMESTAMP" property="modifytime" />
+  </resultMap>
+</mapper>
