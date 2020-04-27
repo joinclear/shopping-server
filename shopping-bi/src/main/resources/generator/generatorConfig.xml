@@ -17,9 +17,9 @@
         </plugin>
 	
 		<jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-			connectionURL="jdbc:mysql://121.196.225.245:13306/shopping"
-			userId="shopping"
-			password="Shop@0423" />
+			connectionURL="jdbc:mysql://ip/shopping"
+			userId=""
+			password="" />
 			
 		<javaModelGenerator targetPackage="com.shopping.bi.model"
 			targetProject="src/main/java" />
